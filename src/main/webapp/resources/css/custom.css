@@ -1,0 +1,261 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+ 
+/** process-content custom css */
+.process {
+	width: 100%;
+}
+
+/** text-color custom css */
+.font-red {
+	color:#D44950 !important;
+}
+
+.font-blue {
+	color:#0404B0 !important;
+}
+
+.font-black {
+	color:#404040 !important;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+
+/** pointer custom css */
+.pointer { 
+	cursor: pointer; 
+	text-decoration: none;
+	color: #0404B0;
+}
+
+
+/** read page custom css */
+.pd-r0 {
+	padding-right: 0;
+}
+
+.pd-r7 {
+	padding-right: 7px !important;
+}
+
+.pd-r17 {
+	padding-right: 17px !important;
+}
+
+.pd-l0 {
+	padding-left: 0;
+}
+
+.pd-rl7 {
+	padding-left: 7px !important;
+	padding-right: 7px !important;
+}
+
+.pd-l17 {
+	padding-left: 17px !important;
+}
+
+.pd-t0 {
+	padding-top: 0 !important;
+}
+
+.pd-t7 {
+	padding-top: 7px !important;
+}
+
+.pd-b7 {
+	padding-bottom: 7px;
+}
+
+.pd-a7 {
+	padding: 7px;
+}
+
+.mg-0 {
+	margin: 0;
+}
+
+.mg-r5 {
+	margin-right: 5px;
+}
+
+.bb-clean {
+	background-color:#ffffff; border: 0;
+}
+
+.bd-rw0 {
+    border-right-width: 0;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.font-impt {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.prew-colr {
+	border-left-width: 1px !important; 
+	border-left-style: solid !important; 
+	border-left-color: rgb(204, 204, 204) !important; 
+	background-color: #ffffff;
+}
+
+.read-label {
+	border: 0; 
+/* 	background-color:#DDD; */
+	height: auto !important;
+	display: inline-block !important;
+/* 2015-06-03 �Ʒ� �� ���� �߰� */
+	font-weight: bold;
+	text-align: right !important;
+}
+
+.legend-checkbox {
+	display: inline-block; 
+	padding-left: 13px;
+}
+
+.fs-13 {
+	font-size: 13px !important;
+}
+
+.dashboard_lnk:link, .dashboard_lnk:visited, .dashboard_lnk:hover, .dashboard_lnk:active{
+	color: #ffffff;
+}
+
+
+.read-cont, .read-table, .read-table-scroll {
+	border-top-width: 0; 
+	border-left-width: 0; 
+	border-right-width: 0;
+	height: auto !important;
+	display: inline-block !important;
+	border-bottom: 1px dotted #cccccc !important;
+}
+
+.read-mdash {
+	border-top-width: 0; 
+	border-left-width: 0; 
+	border-right-width: 0;
+	border-bottom-width: 0;
+	height: auto !important;
+	display: inline-block !important;
+}
+
+.read-table, .read-table-scroll {
+	padding: 0;
+}
+
+.read-table-scroll {
+	padding-bottom:18px;
+	line-height: 0;
+}
+
+.read-table-scroll .wrap-tbl-thead {
+	width:100%; border:0; padding-right:17px;
+	background-color: #eeeeee;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#fafafa));
+	background-image: -webkit-linear-gradient(top, #f2f2f2 0, #fafafa 100%);
+	background-image: -moz-linear-gradient(top, #f2f2f2 0, #fafafa 100%);
+	background-image: -ms-linear-gradient(top, #f2f2f2 0, #fafafa 100%);
+	background-image: -o-linear-gradient(top, #f2f2f2 0, #fafafa 100%);
+	background-image: -linear-gradient(top, #f2f2f2 0, #fafafa 100%);
+	border: 1px solid #ddd;
+ 	border-left-width: 0;
+}
+
+.read-table-scroll .wrap-tbl-tbody {
+	width:100%; max-height:150px; overflow-y: scroll;
+	border: 1px solid #ddd;
+ 	border-top-width: 0;
+ 	border-left-width: 0;
+}
+
+.read-table-scroll .wrap-tbl-thead > table{
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+
+.read-table-scroll .wrap-tbl-thead > table > thead > tr > th{
+	border-bottom-width: 0px;
+}
+
+.read-table-scroll .wrap-tbl-tbody > table{
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+
+.thead-center>thead>tr>th {
+	text-align: center !important;
+	vertical-align: middle;
+}
+
+.tbody-middle>table>tbody>tr>td {
+	vertical-align:middle !important;
+}
+
+.non-header-border {
+	border-top-width:1px !important; 
+	border-top-style:solid !important; 
+	border-top-color: #CCC!important;
+}
+
+.non-bottom-border {
+	border-bottom-width:1px !important; 
+	border-bottom-style:hidden !important; 
+	border-bottom-color: #FFF!important;
+}
+
+/** jqgrid custom css */
+.ui-jqgrid tr.footrow {border-left-width: 0; border-right-width: 0; border-top-width: 0;}
+.ui-jqgrid tr.footrow td{padding:8px 4px; background-color:#f5f5f5}
+.ui-jqgrid tr.footrow-ltr td{border-right-width:1px;border-right-color:#CCC}
+.ui-jqgrid .ui-ellipsis {text-overflow:ellipsis; -moz-binding:url('ellipsis-xbl.xml#ellipsis');}
+.ui-pg-table.navtable{float: right !important;}
+.ui-pg-input{text-align: center !important;}
+.jqgrid-section {width:100%;border:0;}
+.jqg-first-row-header>th{padding:0 !important;}
+.ui-th-column-header{text-align: center; padding: 4px !important;}
+
+.myinfo-main {
+	position:fixed; 
+	width: 100%; 
+	height: 98%; 
+	background-color: #EEE; 
+	padding-right: 240px;
+	padding-left: 20px;
+	padding-top: 60px;
+	z-index: 100;
+}
+
+/** text custom css */
+.ts-ul {
+	text-decoration: underline;
+}
+
+.word-break {
+	word-break: break-all;
+}
